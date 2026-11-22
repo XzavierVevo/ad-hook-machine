@@ -1,0 +1,43 @@
+{
+  "include": [
+    "hook_generator",
+    "*.py"
+  ],
+  "exclude": [
+    "**/__pycache__",
+    "**/node_modules",
+    "**/site-packages"
+  ],
+  "ignore": [
+    "**/site-packages/**",
+    ".venv/**",
+    ".wenv/**"
+  ],
+  "reportMissingModuleSource": false,
+  "pythonVersion": "3.12",
+  "venvPath": ".",
+  "venv": ".venv",
+  "reportMissingImports": "none",
+  "reportMissingTypeStubs": false,
+  "reportUnusedImport": "none",
+  "reportUnusedVariable": "none",
+  "reportUnusedClass": "none",
+  "reportUnusedFunction": "none",
+  "reportGeneralTypeIssues": "none",
+  "reportOptionalMemberAccess": "none",
+  "reportOptionalSubscript": "none",
+  "reportPrivateImportUsage": "none",
+  "reportUnknownMemberType": "none",
+  "reportUnknownArgumentType": "none",
+  "reportUnknownVariableType": "none",
+  "reportUntypedFunctionDecorator": "none",
+  "reportUntypedClassDecorator": "none",
+  "reportUntypedBaseClass": "none",
+  "reportUntypedNamedTuple": "none",
+  "reportCallInDefaultInitializer": "none",
+  "reportUnnecessaryIsInstance": "none",
+  "reportUnnecessaryCast": "none",
+  "reportAssertAlwaysTrue": "none",
+  "reportSelfClsParameterName": "none",
+  "reportImplicitStringConcatenation": "none"
+}

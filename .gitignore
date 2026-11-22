@@ -1,0 +1,71 @@
+# API Keys and Environment Variables - DO NOT COMMIT
+api_keys.txt
+.env
+*.log
+logs/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+nul
+
+# Generated output (optional - uncomment to ignore)
+# hook_generator/output/
+
+# Cursor
+.claude/
+
+
+# ---- secrets: never commit ----
+.env
+.env.*
+!.env.example
+.dev.vars
+.dev.vars.*
+!.dev.vars.example
+.secrets*
+secrets/
+certs/
+*.pem
+*.key
+*credentials*.json
+api_keys.txt
+config/gemini_api_key.txt
+*cookies*.json
+*cookies*.txt
+node_modules/
+.wrangler/
+__pycache__/
+*.log
